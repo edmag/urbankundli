@@ -752,7 +752,7 @@ window.Modernizr = (function( window, document, undefined ) {
           if (html5.shivCSS && !supportsHtml5Styles && !data.hasCSS) {
             data.hasCSS = !!addStyleSheet(ownerDocument,
                                                                                 'article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}' +
-                                                                                    'mark{background:#FF0;color:#000}' +
+                                                                                    'mark{background:#FF0;color:#010203}' +
                                                                                     'template{display:none}'
                                          );
           }

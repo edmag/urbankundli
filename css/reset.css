@@ -132,8 +132,8 @@ header {
   left: 0;
   width: 300PX;
   height: 100%;
-  background-color: #37a4dd;
-  color: #000000;
+  background-color: #010203;
+  color: #010203000;
   visibility: hidden;
   /* Force Hardware Acceleration */
   -webkit-backface-visibility: hidden;
@@ -151,7 +151,7 @@ header {
   /* dropdown title - mobile version only */
   position: relative;
   z-index: 1;
-  color: #000000;
+  color: #010203000;
   font-size:26px;
   font-family: 'Norican', cursive;
   color:#e5ae49;
@@ -487,7 +487,7 @@ header {
     border-bottom: none;
   }
   .no-touch .cd-dropdown-content > li:not(.has-children) a:hover {
-    color: #000000;
+    color: #010203000;
   }
   .cd-dropdown-content.move-out > li > a, .cd-dropdown-content.move-out > li > .cd-search, .cd-dropdown-content.move-out > .cd-divider {
     /* reset mobile style */
@@ -809,22 +809,22 @@ header {
   -o-appearance: none;
   appearance: none;
   background-color: #fff;
-  color: #000000;
+  color: #010203000;
   border: none;
   border-radius: 0;
   border:1px solid #d3d3d3;
 }
 .cd-search input[type="search"]::-webkit-input-placeholder {
-  color: #000000;
+  color: #010203000;
 }
 .cd-search input[type="search"]::-moz-placeholder {
-  color: #000000;
+  color: #010203000;
 }
 .cd-search input[type="search"]:-moz-placeholder {
-  color: #000000;
+  color: #010203000;
 }
 .cd-search input[type="search"]:-ms-input-placeholder {
-  color: #000000;
+  color: #010203000;
 }
 .cd-search input[type="search"]:focus {
   background: #ffffff;
